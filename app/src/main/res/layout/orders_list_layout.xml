@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/order_background"
+    android:id="@+id/order_relative_layout"
+    android:layout_marginBottom="15dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/order_id"
+    android:text="Номер заказа"
+    android:textSize="20dp"
+    android:textColor="#000"
+    android:textAlignment="textStart"
+    android:paddingLeft="45dp"
+    android:paddingTop="15dp"
+    android:gravity="start"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order_id"
+        android:text="Стоимость заказа"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textAlignment="textStart"
+        android:paddingLeft="45dp"
+        android:paddingTop="15dp"
+        android:gravity="start"
+       android:id="@+id/order_price"
+        android:paddingBottom="15dp"></TextView>
+</RelativeLayout>
